@@ -11,7 +11,7 @@ open browser href `http://localhost:8888/index.html`
 
 # 重要说明
 
-这个项目只是 jessibuca-pro-vue-demo 的 demo 项目，但是内涵 hz-player，hz-player 是基于 jessibucaPro 改造的，所以 hz-player 的文档和 api 可完全参考 jessibucaPro，jessibucaPro 的文档地址链接：http://jessibuca.monibuca.com/pro-ai.html
+这个项目只是 jessibuca-pro-vue-demo 的 demo 项目，但是内涵 public 文件夹里面 hz-player，hz-player 是基于 jessibucaPro 改造的，所以 hz-player 的文档和 api 可完全参考 jessibucaPro，jessibucaPro 的文档地址链接：http://jessibuca.monibuca.com/pro-ai.html
 
 # Disc
 
