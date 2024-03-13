@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "plugins": ["vue"],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true,
+      "impliedStrict": true
+    }
+  },
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "object-curly-spacing": ["error", "always"],
+    "comma-spacing": "error",
+    "array-bracket-spacing": "error",
+    "arrow-spacing": "error",
+    "quotes": [1, "single"],
+    "key-spacing": ["error", { "beforeColon": false }],
+    //    "quote-props": ["error", "as-needed"],
+    "camelcase": "error",
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "no-debugger": "off",
+    "eqeqeq": [2, "allow-null"],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 2
+      }
+    ]
+  },
+  "extends": ["eslint:recommended", "plugin:vue/essential"],
+  "globals": {
+    "process": true,
+    "__dirname": true,
+    "_": true,
+    "require": true,
+    "module": true,
+    "console": false,
+    "window": true,
+    "document": true,
+    "Promise": true,
+    "history": true,
+    "location": true,
+    "setTimeout": true
+  }
+}
